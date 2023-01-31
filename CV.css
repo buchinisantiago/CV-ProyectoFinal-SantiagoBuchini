@@ -1,5 +1,5 @@
 *{box-sizing:border-box;
-    border: solid 1px red;}
+    /*border: solid 1px red;*/}
     /*.contenedor {
         display: grid;
         grid-template-columns: repeat(4,1fr);
