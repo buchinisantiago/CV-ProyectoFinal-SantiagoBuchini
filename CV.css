@@ -1,0 +1,116 @@
+*{box-sizing:border-box;
+    border: solid 1px red;}
+    /*.contenedor {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,auto);
+        grid-template-areas:
+        'encabezado encabezado encabezado'
+        'columnaizq  principal principal';}*/
+
+    body {
+        font-family: 'Pacifico', cursive;
+    }    
+
+    #encabezado {
+        width: auto;
+        height: 16em;
+        background: linear-gradient(to right, rgb(17, 17, 117), rgb(141, 129, 3)); 
+        
+    }
+
+    #columnaizq {
+    
+        float: left;
+        width:20%;
+        margin:auto;
+        height: 1000px;
+        background:  linear-gradient(to bottom, rgb(17, 17, 117), white);
+        line-height: 180%;
+        padding-left: 0%;
+    }
+    #principal {
+        padding-left: 2%;
+        padding-right: 2%;
+        float: left;
+        width:80%;
+        margin: auto;
+        height: 1000px;
+        background:  white;
+    }
+    
+    
+    #fotoCV  {
+        float: left;
+        margin-left: 35%;
+        width: 10%;
+         
+        margin: 1%;
+        border-radius: 30%;
+        
+          }
+    
+    h1  {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 2.3em;
+        margin: 0px;
+        padding: 0px;
+        line-height: 1em;
+            }
+    h2  {
+        text-align: center;
+        font-weight: bold; 
+        margin: auto;   
+    }           
+    h3  {
+        text-align: left;
+        font-weight: bold;
+        margin: auto;
+            }
+    p {
+        text-align: justify;
+        margin: auto;
+        padding: auto;
+    }
+    #datospersonales {
+        
+        text-align:right ;
+        color: white;
+        font-weight: bold;
+        width: auto;
+        line-height: 180%;
+    }
+    ul {
+        margin: auto;
+        padding: 0.5em;
+        line-height: 1.5;
+        list-style-type: none;
+        list-style-position: inside;  
+    }
+    li {
+        margin: auto;
+        padding: auto;
+         
+    }
+    @media (max-width: 600px) {
+        body {
+            font-size: 14px;
+            grid-template-areas:
+            'encabezado encabezado encabezado'
+            'principal  principal principal'
+            'columnaizq  columnaizq columnaizq';
+            ;
+        }
+      }
+      
+    /*#nombre {
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        margin: 0px;
+    }*/
+
+    
